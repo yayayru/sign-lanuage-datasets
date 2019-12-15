@@ -26,7 +26,7 @@ These datasets are used for machine-learning research
 
 **Dataset information and related papers**
 
-1.  DGS Kinect 40 - German Sign Language (no website)
+1.  [DGS Kinect 40 - German Sign Language](https://www.cvssp.org/data/KinectSign/webpages/downloads.html)
 
     1.  [Sign Language Recognition using
         Sub-Units](http://jmlr.csail.mit.edu/papers/volume13/cooper12a/cooper12a.pdf),
@@ -40,8 +40,7 @@ These datasets are used for machine-learning research
         Intervals](http://www.cv-foundation.org/openaccess/content_cvpr_2014/papers/Ong_Sign_Spotting_using_2014_CVPR_paper.pdf) 2014,
         Ong et al.
 
-2.  [RWTH-PHOENIX v1 - German Sign
-    Language](http://www-i6.informatik.rwth-aachen.de/~forster/database-rwth-phoenix.php) [RWTH-PHOENIX
+2.  [RWTH-PHOENIX v1 - German Sign Language](http://www-i6.informatik.rwth-aachen.de/~forster/database-rwth-phoenix.php) [RWTH-PHOENIX
     v2](https://www-i6.informatik.rwth-aachen.de/~koller/RWTH-PHOENIX/)
 
     1.  [Dataset
@@ -196,8 +195,6 @@ These datasets are used for machine-learning research
 
 **Handshape/hand posture datasets (not all are for sign language)**
 
-**Comparison**
-
 | **id** | **Name**                                       | **Country** | **Classes**           | **Subjects** | **Samples**                    | **Data**                      | **Type**           | **Availability** |
 |--------|------------------------------------------------|-------------|-----------------------|--------------|--------------------------------|-------------------------------|--------------------|------------------|
 | 1      | ASL Fingerspelling A                           | USA         | 24                    | 5            | 131000                         | 2.1gb                         | images (depth+rgb) | Free download    |
@@ -216,15 +213,7 @@ These datasets are used for machine-learning research
 
 **Dataset information and related papers**
 
-1.  [ASL Fingerspelling
-    A](http://empslocal.ex.ac.uk/people/staff/np331/index.php?section=FingerSpellingDataset)
-
-    1.  [Spelling It Out: Real-Time ASL Fingerspelling
-        Recognition](http://personal.ee.surrey.ac.uk/Personal/N.Pugeault/publications/PugeaultBowden2011b.pdf).
-        2011, Pugeault et al.
-
-2.  [ASL Fingerspelling
-    B](http://empslocal.ex.ac.uk/people/staff/np331/index.php?section=FingerSpellingDataset)
+1.  [ASL Fingerspelling](http://empslocal.ex.ac.uk/people/staff/np331/index.php?section=FingerSpellingDataset)
 
     1.  [Spelling It Out: Real-Time ASL Fingerspelling
         Recognition](http://personal.ee.surrey.ac.uk/Personal/N.Pugeault/publications/PugeaultBowden2011b.pdf).
@@ -234,151 +223,129 @@ These datasets are used for machine-learning research
         Cameras](http://cdn.intechopen.com/pdfs-wm/48352.pdf). 2015, Kapuscinski
         et al.
 
-3.  [PSL Fingerspelling ToF](http://vision.kia.prz.edu.pl/statictof.php)
+2.  [PSL Fingerspelling ToF](http://vision.kia.prz.edu.pl/statictof.php)
 
     1.  [Recognition of Hand Gestures Observed by Depth
         Cameras](http://cdn.intechopen.com/pdfs-wm/48352.pdf). 2015, Kapuscinski
         et al.
 
-4.  [LSA16 handshapes](http://facundoq.github.io/unlp/lsa16/index.html)
+3.  [LSA16 handshapes](http://facundoq.github.io/unlp/lsa16/index.html)
 
-    1.  [Handshape recognition for Argentinian Sign Language using
-        ProbSom](http://journal.info.unlp.edu.ar/wp-content/uploads/2015/10/JCST-42-Paper-1.pdf).
-        2016, Ronchetti et al.
+    1.  [Handshape recognition for Argentinian Sign Language using ProbSom](http://journal.info.unlp.edu.ar/wp-content/uploads/2015/10/JCST-42-Paper-1.pdf). 2016, Ronchetti et al.
 
-    2.  [A Study of Convolutional Architectures for Handshape Recognition
-        applied to Sign
-        Language](http://sedici.unlp.edu.ar/handle/10915/63481) 2017, Quiroga et
-        al.
+    2.  [A Study of Convolutional Architectures for Handshape Recognition applied to Sign Language](http://sedici.unlp.edu.ar/handle/10915/63481) 2017, Quiroga et al.
 
-5.  [ISL Irish Sign Language Letters](https://github.com/marlondcu/ISL).
+4.  [ISL Irish Sign Language Letters](https://github.com/marlondcu/ISL).
 
-    1.  [A Dataset for Irish Sign Language
-        Recognition](http://doras.dcu.ie/21882/1/IMVIP_short_cr.pdf) 2017,
-        Oliveira et al.
+    1.  [A Dataset for Irish Sign Language Recognition](http://doras.dcu.ie/21882/1/IMVIP_short_cr.pdf) 2017, Oliveira et al.
 
-    2.  [A comparison between end-to-end approaches and feature extraction based
-        approaches for Sign Language
-        recognition](http://doras.dcu.ie/22132/1/Houssem_-_IVCNZ_2017.pdf) 2017,
-        Oliveira et al.
+    2.  [A comparison between end-to-end approaches and feature extraction based approaches for Sign Language recognition](http://doras.dcu.ie/22132/1/Houssem_-_IVCNZ_2017.pdf) 2017, Oliveira et al.
 
-6.  [RWTH-PHOENIX-Weather 2014 MS
-    Handshapes](https://www-i6.informatik.rwth-aachen.de/~koller/1miohands-data/)
+5.  [RWTH-PHOENIX-Weather 2014 MS Handshapes](https://www-i6.informatik.rwth-aachen.de/~koller/1miohands-data/)
 
-    1.  [Deep Hand: How to Train a CNN on 1 Million Hand Images When Your Data
-        Is Continuous and Weakly
-        Labelled ](https://www-i6.informatik.rwth-aachen.de/publications/download/1000/Koller-CVPR-2016.pdf)2017,
-        Koller et al.
+    1.  [Deep Hand: How to Train a CNN on 1 Million Hand Images When Your Data Is Continuous and Weakly Labelled ](https://www-i6.informatik.rwth-aachen.de/publications/download/1000/Koller-CVPR-2016.pdf) 2017, Koller et al.
 
-7.  [Japanese Sign Language
-    Dataset](http://home.agh.edu.pl/~bkw/research/data/mva/jsl.zip)
+6.  [Japanese Sign Language Dataset](http://home.agh.edu.pl/~bkw/research/data/mva/jsl.zip)
 
-    1.  [Recognition of JSL Finger Spelling Using Convolutional Neural
-        Networks](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7986796) 2017,
-        Hosoe, Sako and Kwolek
+    1.  [Recognition of JSL Finger Spelling Using Convolutional Neural Networks](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7986796) 2017, Hosoe, Sako and Kwolek
 
-    2.  [Learning Siamese Features for Finger Spelling
-        Recognition](https://link.springer.com/chapter/10.1007/978-3-319-70353-4_20) 2017,
+    2.  [Learning Siamese Features for Finger Spelling Recognition](https://link.springer.com/chapter/10.1007/978-3-319-70353-4_20) 2017,
         Sako and Kwolek
 
-8.  [NUS hand posture dataset
-    I](https://www.ece.nus.edu.sg/stfpage/elepv/NUS-HandSet/)
+7.  [NUS hand posture dataset I](https://www.ece.nus.edu.sg/stfpage/elepv/NUS-HandSet/)
 
-    1.  [Hand posture and face recognition using a Fuzzy-Rough
-        Approach](http://vadakkepat.com/web/images/stories/pubs/ijhr-2010.pdf) 2010,
-        Pramod Kumar P, Prahlad Vadakkepat, and Loh Ai Poh
+    1.  [Hand posture and face recognition using a Fuzzy-Rough Approach](http://vadakkepat.com/web/images/stories/pubs/ijhr-2010.pdf) 2010, Pramod Kumar P, Prahlad Vadakkepat, and Loh Ai Poh
 
     2.  [Hand Posture Recognition Using Convolutional Neural
         Network](https://www.researchgate.net/publication/322915265_Hand_Posture_Recognition_Using_Convolutional_Neural_Network)
 
-9.  [NUS hand posture dataset
-    II](https://www.ece.nus.edu.sg/stfpage/elepv/NUS-HandSet/) 1.[Attention
-    Based Detection and Recognition of Hand Postures Against Complex
-    Backgrounds](http://link.springer.com/article/10.1007%2Fs11263-012-0560-5?LI=true) 2013,
-    Pisharady et al
+8.  [NUS hand posture dataset II](https://www.ece.nus.edu.sg/stfpage/elepv/NUS-HandSet/)
+    1.  [Attention Based Detection and Recognition of Hand Postures Against Complex Backgrounds](http://link.springer.com/article/10.1007%2Fs11263-012-0560-5?LI=true) 2013, Pisharady et al
 
-10. [CIARP 2017](http://home.agh.edu.pl/~bkw/code/ciarp2017/)
+9.  [CIARP 2017](http://home.agh.edu.pl/~bkw/code/ciarp2017/)
 
-    1.  [Hand Posture Recognition Using Convolutional Neural
-        Network](https://link.springer.com/chapter/10.1007/978-3-319-75193-1_53)
+    1.  [Hand Posture Recognition Using Convolutional Neural Network](https://link.springer.com/chapter/10.1007/978-3-319-75193-1_53)
 
-11. [RTWH Fingerspelling
-    dataset](http://www-i6.informatik.rwth-aachen.de/aslr/fingerspelling.php)
+10. [RTWH Fingerspelling dataset](http://www-i6.informatik.rwth-aachen.de/aslr/fingerspelling.php)
 
-12. [Modeling Image Variability in Appearance-Based Gesture Recognition. In ECCV
-    Workshop on Statistical Methods in Multi-Image and Video
-    Processing](https://www-i6.informatik.rwth-aachen.de/publications/download/29/Dreuw-ECCV-SMVP-2006.pdf)
+11. [Modeling Image Variability in Appearance-Based Gesture Recognition. In ECCV Workshop on Statistical Methods in Multi-Image and Video Processing](https://www-i6.informatik.rwth-aachen.de/publications/download/29/Dreuw-ECCV-SMVP-2006.pdf)
 
-13. [Indian
-    Kinect](https://www.ias.ac.in/article/fulltext/sadh/041/02/0161-0182) [github](https://github.com/zafar142007/Gesture-Recognition-for-Indian-Sign-Language-using-Kinect)
+12. [Indian Kinect](https://www.ias.ac.in/article/fulltext/sadh/041/02/0161-0182) [github](https://github.com/zafar142007/Gesture-Recognition-for-Indian-Sign-Language-using-Kinect)
 
-14. [Nearest neighbour classification of Indian sign language gestures using
-    kinect
-    camera](https://www.ias.ac.in/article/fulltext/sadh/041/02/0161-0182) 2016,
-    Ansari and Harit
+13. [Nearest neighbour classification of Indian sign language gestures using kinect camera](https://www.ias.ac.in/article/fulltext/sadh/041/02/0161-0182) 2016, Ansari and Harit
 
-15. [Arabic Alphabets Sign Language Dataset
-    (ArASL)](https://data.mendeley.com/datasets/y7pckrw6z2/1)
+14. [Arabic Alphabets Sign Language Dataset (ArASL)](https://data.mendeley.com/datasets/y7pckrw6z2/1)
 
-16. [Arabic Alphabet and Numbers Sign Language
-    Recognition](https://www.researchgate.net/publication/285755274_Arabic_Alphabet_and_Numbers_Sign_Language_Recognition)
+15. [Arabic Alphabet and Numbers Sign Language Recognition](https://www.researchgate.net/publication/285755274_Arabic_Alphabet_and_Numbers_Sign_Language_Recognition)
 
 **Other info**
 
-Kevin Murphy mantains a similar list for [Action Recognition
-Datasets](http://www.cs.ubc.ca/~murphyk/videodata.html).
+Kevin Murphy mantains a similar list for [Action Recognition Datasets](http://www.cs.ubc.ca/~murphyk/videodata.html).
 
 Other similar websites with sign language dataset compilations are:
 
 -   [Chalearn dataset list](http://ww1.chalearn.org/resou/databases)
 
--   [RWTH datasets
-    list](https://www-i6.informatik.rwth-aachen.de/web/Software/Databases/Signlanguage/?db=rwth-boston-104)
+-   [RWTH datasets list](https://www-i6.informatik.rwth-aachen.de/web/Software/Databases/Signlanguage/?db=rwth-boston-104)
 
 Papers that cite datasets that are unavailable:
 
 -   480 signs, Indian Sign Language
 
-    -   [Segment, Track, Extract, Recognize and Convert Sign Language Videos to
-        Voice/Text](https://pdfs.semanticscholar.org/37f8/0b0bf92dae99fc66fea90973e3b3e1b42e86.pdf) 2012,
-        Kishore and Kumar
+    -   [Segment, Track, Extract, Recognize and Convert Sign Language Videos to Voice/Text](https://pdfs.semanticscholar.org/37f8/0b0bf92dae99fc66fea90973e3b3e1b42e86.pdf) 2012, Kishore and Kumar
 
-    -   [Selfie video based continuous Indian sign language recognition
-        system](https://www.sciencedirect.com/science/article/pii/S2090447917300217) 2017,
-        Rao and Kishore
+    -   [Selfie video based continuous Indian sign language recognition system](https://www.sciencedirect.com/science/article/pii/S2090447917300217) 2017, Rao and Kishore
 
 -   10 signs, indian sign language
 
-    -   [Recognizing & interpreting Indian Sign Language gesture for Human Robot
-        Interaction](https://ieeexplore.ieee.org/document/5640434/?part=1) 2010,
-        Nandy et al.
+    -   [Recognizing & interpreting Indian Sign Language gesture for Human Robot Interaction](https://ieeexplore.ieee.org/document/5640434/?part=1) 2010, Nandy et al.
 
 -   24 static handshapes, Indian Sign Language
 
-    -   [Recognition of Indian Sign Language in Live
-        Video](https://arxiv.org/pdf/1306.1301.pdf) 2013, Singha and Das
+    -   [Recognition of Indian Sign Language in Live Video](https://arxiv.org/pdf/1306.1301.pdf) 2013, Singha and Das Hand movement datasets (movement only):
 
-Hand movement datasets (movement only):
+1.  [LIBRAS hand movement](https://archive.ics.uci.edu/ml/datasets/Libras+Movement)
 
-1.  [LIBRAS hand
-    movement](https://archive.ics.uci.edu/ml/datasets/Libras+Movement)
+    1.  [Hand Movement Recognition for Brazilian Sign Language: A Study Using Distance-Based Neural Networks.](https://ieeexplore.ieee.org/document/5178917/)
 
-    1.  [Hand Movement Recognition for Brazilian Sign Language: A Study Using
-        Distance-Based Neural
-        Networks.](https://ieeexplore.ieee.org/document/5178917/)
-
-**Non-manual features**
+**Facial features**
 
 1.  QLIBRAS
 
-    1.  [QLIBRAS: A novel database for grammatical facial expressions in
-        Brazilian Sign
-        Language](https://pdfs.semanticscholar.org/919a/1e2bea81a7dc52dfa20fe530cf75a8f307da.pdf)
+    1.  [QLIBRAS: A novel database for grammatical facial expressions in Brazilian Sign Language](https://pdfs.semanticscholar.org/919a/1e2bea81a7dc52dfa20fe530cf75a8f307da.pdf)
+
+**Lip reading features**
+
+1.   [GRID corpus - Lip](http://spandh.dcs.shef.ac.uk/gridcorpus/)
+     1.   [LipNet: End-to-End Sentence-level Lipreading](https://arxiv.org/pdf/1611.01599.pdf)
+     2.   [Dynamic Stream Weighting for Turbo-Decoding-Based Audiovisual ASR](https://pdfs.semanticscholar.org/3087/e40e076b2a7bbb1e7a6efb7779a941283853.pdf)
+2.   [AVICAR - Lip](http://www.isle.illinois.edu/sst/AVICAR/)
+     1. [Classification and Feature Extraction by Simplexization](https://ieeexplore.ieee.org/document/4451093)
+3.   [AVLetter](http://www.ee.surrey.ac.uk/Projects/LILiR/datasets/avletters1/index.html)
+     1. [Temporal Multimodal Learning in Audiovisual Speech Recognition](https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Hu_Temporal_Multimodal_Learning_CVPR_2016_paper.pdf)
+4.   [CUAVE](http://people.csail.mit.edu/siracusa/avdata/)
+     1. [CUAVE: A new audio-visual database for multimodal human-computer interface research](https://www.researchgate.net/publication/228722705_CUAVE_A_new_audio-visual_database_for_multimodal_human-computer_interface_research)
+5.   OuluVS1 (no website)
+     1. [Lip Reading in the Wild](https://www.robots.ox.ac.uk/~vgg/publications/2016/Chung16/chung16.pdf)
+6.   [OuluVS2](http://www.ee.oulu.fi/research/imag/OuluVS2/)
+     1. [Out of time: automated lip sync in the wild](https://www.robots.ox.ac.uk/~vgg/publications/2016/Chung16a/chung16a.pdf)
+7.   [BBC TV](http://www.robots.ox.ac.uk/~vgg/data/lip_reading/lrw1.html)
+     1. [Lip Reading in the Wild](https://www.robots.ox.ac.uk/~vgg/publications/2016/Chung16/chung16.pdf)
+
+The table from the paper - [LipNet: End-to-End Sentence-level Lipreading](https://arxiv.org/pdf/1611.01599.pdf)
+| **Method** | **Dataset** | **Size** | **Output** | **Accuracy** |
+|----------------|-----------------|------------|--------------- |------------------ |
+| Fu et al. (2008)      | AVICAR | 851 | Digits | 37.9% |
+| Hu et al. (2016) | AVLetter | 78 | Alphabet | 64.6%|
+| Papandreou et al. (2009) | CUAVE | 1800 | Digits | 83.0%|
+| Chung & Zisserman (2016a) |OuluVS1 | 200 | Phrases | 91.4% |
+| Chung & Zisserman (2016b) | OuluVS2 | 520 | Phrases | 94.1% |
+| Chung & Zisserman (2016a) | BBC TV | > 400000 | Words | 65.4% |
+| Gergen et al. (2016) | GRID | 29700 | Words | 86.4% |
+| LipNet | GRID | 28775 | Sentences | 95.2% |
 
 **Continuous hand pose**
 
-1.  [NYU Hand pose
-    dataset](https://cims.nyu.edu/~tompson/NYU_Hand_Pose_Dataset.htm)
+1.  [NYU Hand pose dataset](https://cims.nyu.edu/~tompson/NYU_Hand_Pose_Dataset.htm)
 
-    1.  [Real-Time Continuous Pose Recovery of Human Hands Using Convolutional
-        Networks](https://cims.nyu.edu/~tompson/others/TOG_2014_paper_PREPRINT.pdf)
+    1.  [Real-Time Continuous Pose Recovery of Human Hands Using Convolutional Networks](https://cims.nyu.edu/~tompson/others/TOG_2014_paper_PREPRINT.pdf)
