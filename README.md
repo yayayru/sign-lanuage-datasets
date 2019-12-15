@@ -333,6 +333,7 @@ Papers that cite datasets that are unavailable:
      1. [Lip Reading in the Wild](https://www.robots.ox.ac.uk/~vgg/publications/2016/Chung16/chung16.pdf)
 
 The table from the paper - [LipNet: End-to-End Sentence-level Lipreading](https://arxiv.org/pdf/1611.01599.pdf)
+
 | **Method** | **Dataset** | **Size** | **Output** | **Accuracy** |
 |----------------|-----------------|------------|--------------- |------------------ |
 | Fu et al. (2008)      | AVICAR | 851 | Digits | 37.9% |
