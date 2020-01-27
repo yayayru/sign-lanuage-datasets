@@ -12,7 +12,7 @@ These datasets are used for machine-learning research
 
 |id| Name                 |Co |C    |S    |Sa        |Data  | LL  |Type     |An     |Av    |
 |--|----------------------|---|-----|-----|----------|------|-----|---------|-------|------|
-|1 | DGS Kinect 40        |Ger|40   |15   |3000      |      |W    |[8,9]    |       |CA    |
+|1 | DGS Kinect 40        |Ger|40   |15   |3000      |      |W    |[8,9]    |       |PA    |
 |2 | RWTH-PHOENIX-Weather |Ger|1200 |9    |45760     |52gb  |S    |[8]      |[18]   |PA    |
 |3 | SIGNUM               |Ger|450  |25   |33210     |920gb |S    |[8]      |       |PA,[5]|
 |4 | GSL 20               |Gre|20   |6    |~840      |      |W    |         |       |CA    |
@@ -30,6 +30,7 @@ These datasets are used for machine-learning research
 |16| Purdue ASL           |USA|?    |14[3]| ?        | ?    |W/S  |[8,14]   |       |[6]   |
 |17| CUNY ASL             |USA|?    |8    |~33000[4] | ?    |S    |[12,16]  |[7]    |U     |
 |18| SignsWorld Atlas     |Ara|[2]  |10   | ?        | ?    |W,S,H|[17,8,14]|?      |U     |
+|19| ChicagoFSWild        |USA|[2]  |160  | ?        | ?    |S[]  |[17,8,14]|?      |PA    |     
 
 [1] - letters/numbers;
 [2] - multiple types;
@@ -52,12 +53,13 @@ These datasets are used for machine-learning research
 [19]- Hand;
 [20]- end/start;
 [21]- Hands and Head position;
+[22]- only ASL fingerspelling sequences
 
 **Dataset information and related papers**
 
 1.  [DGS Kinect 40 - German Sign Language](https://www.cvssp.org/data/KinectSign/webpages/downloads.html)
 
-    1.  	[Sign Language Recognition using Sub-Units](http://jmlr.csail.mit.edu/papers/volume13/cooper12a/cooper12a.pdf), 2012, Cooper et al.
+    1.  [Sign Language Recognition using Sub-Units](http://jmlr.csail.mit.edu/papers/volume13/cooper12a/cooper12a.pdf), 2012, Cooper et al.
 
     2.  [Sign Language Recognition using Sequential Pattern Trees](https://pdfs.semanticscholar.org/e8a1/84e76d6476ecc27857b1c1b280af5628d0ae.pdf) 2012, Ong et al.
 
@@ -137,7 +139,7 @@ These datasets are used for machine-learning research
 
 14. [DEVISIGN L](http://vipl.ict.ac.cn/homepage/ksl/data.html#page3)
 
-15. [IIITA -ROBITA Indian Sign Language Gesture Database ] (<https://robita.iiita.ac.in/dataset.php>)
+15. [IIITA -ROBITA Indian Sign Language Gesture Database ](<https://robita.iiita.ac.in/dataset.php>)
 
     1.  [Recognizing & Interpreting Indian Sign Language Gesture for Human Robot Interaction](https://ieeexplore.ieee.org/document/5640434/) 2010, Nandy et al.
 
@@ -150,6 +152,9 @@ These datasets are used for machine-learning research
     1.  [Collecting and evaluating the CUNY ASL corpus for research on American Sign Language animation](https://www.sciencedirect.com/science/article/pii/S0885230813000879)
 
 18. [SignsWorld Atlas; a benchmark Arabic Sign Language database](https://www.sciencedirect.com/science/article/pii/S1319157814000548)
+
+19. [ChicagoFSWild](https://ttic.uchicago.edu/~klivescu/ChicagoFSWild.htm#download)
+    1.  [American Sign Language fingerspelling recognition in the wild](https://arxiv.org/pdf/1810.11438.pdf)
 
 **Handshape/hand posture datasets (not all are for sign language)**
 
