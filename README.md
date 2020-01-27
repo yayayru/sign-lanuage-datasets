@@ -1,36 +1,36 @@
 # Sign-lanuage-datasets
 These datasets are used for machine-learning research
 
-- N : Dataset name
 - Co: Country
-- C : Classes
-- S : Subjects
-- Sa: Samples
+- Class: Classes
+- Subj: Subjects
 - LL: Language level(W-Word,S-Sentence,H-Handshape)
+- Type: Type(V-Video, VR-Video(RGB), VD-Video(depth))
 - An: Annotations
 - Av: Availability(CA-Contact Author, PA-Publicly Available, Un-Unknown, Non-Non available)
+- T: There is in our hard drive?(Y-Yes, N-No)
 
-|id| Name                 |Co |C    |S    |Sa        |Data  | LL  |Type     |An     |Av    |
-|--|----------------------|---|-----|-----|----------|------|-----|---------|-------|------|
-|1 | DGS Kinect 40        |Ger|40   |15   |3000      |      |W    |[8,9]    |       |PA    |
-|2 | RWTH-PHOENIX-Weather |Ger|1200 |9    |45760     |52gb  |S    |[8]      |[18]   |PA    |
-|3 | SIGNUM               |Ger|450  |25   |33210     |920gb |S    |[8]      |       |PA,[5]|
-|4 | GSL 20               |Gre|20   |6    |~840      |      |W    |         |       |CA    |
-|5 | Boston ASL LVD       |USA|3300+|6    | 9800     |      |W    |[8,9]    |[19,20]|PA    |
-|6 | PSL Kinect 30        |Pol|30   |1    |30×10=300 |~1.2gb|W    |[8,10]   |       |PA    |
-|7 | PSL ToF 84           |Pol|84   |1    |84×20=1680|~33gb |W    |[8,11]   |       |PA    |
-|8 | PSL 101              |Pol|?    |?    | ?        |?     |?    |?        |       |CA    |
-|9 | LSA64                |Arg|64   |10   | 3200     |20gb  |W    |[12]     |[21]   |PA    |
-|10| BosphorusSign        |Tur|     |     |          |      |     |         |       |Non   |
-|11| MSR Gesture 3D       |USA|12   |10   | 336      |28mb  |W    |[13]     |       |PA    |
-|12| DEVISIGN-G           |Chi|36[1]|8    | 432      | ?    |W    |[12]     |       |CA    |
-|13| DEVISIGN-D           |Chi|500  |8    | 6000     | ?    |W    |[12]     |       |CA    |
-|14| DEVISIGN-L           |Chi|2000 |8    | 24000    | ?    |W    |[12]     |       |CA    |
-|15| IIITA -ROBITA        |Ind|23   |?    |          | 284mb|W    |[12,15]  |       |CA    |
-|16| Purdue ASL           |USA|?    |14[3]| ?        | ?    |W/S  |[8,14]   |       |[6]   |
-|17| CUNY ASL             |USA|?    |8    |~33000[4] | ?    |S    |[12,16]  |[7]    |U     |
-|18| SignsWorld Atlas     |Ara|[2]  |10   | ?        | ?    |W,S,H|[17,8,14]|?      |U     |
-|19| ChicagoFSWild        |USA|[2]  |160  | ?        | ?    |S[]  |[17,8,14]|?      |PA    |     
+|id| Dataset name         |Co |Class|Subj |Samples   |Data  | LL  |Type     |An     |Av    |T|
+|--|----------------------|---|-----|-----|----------|------|-----|---------|-------|------|-|
+|1 | DGS Kinect 40        |Ger|40   |15   |3000      |      |W    |V,[9]    |       |PA    |Y|
+|2 | RWTH-PHOENIX-Weather |Ger|1200 |9    |45760     |52gb  |S    |V        |[18]   |PA    |Y|
+|3 | SIGNUM               |Ger|450  |25   |33210     |920gb |S    |V        |       |PA,[5]|N|
+|4 | GSL 20               |Gre|20   |6    |~840      |      |W    |         |       |CA    |N|
+|5 | Boston ASL LVD       |USA|3300+|6    | 9800     |      |W    |V,[9]    |[19,20]|PA    |N|
+|6 | PSL Kinect 30        |Pol|30   |1    |30×10=300 |~1.2gb|W    |V,[10]   |       |PA    |N|
+|7 | PSL ToF 84           |Pol|84   |1    |84×20=1680|~33gb |W    |V,[11]   |       |PA    |N|
+|8 | PSL 101              |Pol|?    |?    | ?        |?     |?    |?        |       |CA    |N|
+|9 | LSA64                |Arg|64   |10   | 3200     |20gb  |W    |VR       |[21]   |PA    |Y|
+|10| BosphorusSign        |Tur|     |     |          |      |     |         |       |Non   |N|
+|11| MSR Gesture 3D       |USA|12   |10   | 336      |28mb  |W    |VD       |       |PA    |N|
+|12| DEVISIGN-G           |Chi|36[1]|8    | 432      | ?    |W    |VR       |       |CA    |N|
+|13| DEVISIGN-D           |Chi|500  |8    | 6000     | ?    |W    |VR       |       |CA    |N|
+|14| DEVISIGN-L           |Chi|2000 |8    | 24000    | ?    |W    |VR       |       |CA    |N|
+|15| IIITA -ROBITA        |Ind|23   |?    |          | 284mb|W    |VR,[15]  |       |CA    |N|
+|16| Purdue ASL           |USA|?    |14[3]| ?        | ?    |W/S  |V,[14]   |       |[6]   |N|
+|17| CUNY ASL             |USA|?    |8    |~33000[4] | ?    |S    |VR,[16]  |[7]    |U     |N|
+|18| SignsWorld Atlas     |Ara|[2]  |10   | ?        | ?    |W,S,H|V,[17,14]|?      |U     |N|
+
 
 [1] - letters/numbers;
 [2] - multiple types;
@@ -39,12 +39,12 @@ These datasets are used for machine-learning research
 [5] - 1TB, contact author to obtain hard drive;
 [6] - Request DVDs/HD;
 [7] - Signstream;
-[8] - Videos;
+[8] - 
 [9] - multiple angles;
 [10]- depth from Kinect camera;
 [11]- ToF camera;
-[12]- Videos(RGB);
-[13]- Video(depth);
+[12]- 
+[13]- ;
 [14]- RGB;
 [15]- 320x240;
 [16]- mocap data;
@@ -153,26 +153,33 @@ These datasets are used for machine-learning research
 
 18. [SignsWorld Atlas; a benchmark Arabic Sign Language database](https://www.sciencedirect.com/science/article/pii/S1319157814000548)
 
-19. [ChicagoFSWild](https://ttic.uchicago.edu/~klivescu/ChicagoFSWild.htm#download)
-    1.  [American Sign Language fingerspelling recognition in the wild](https://arxiv.org/pdf/1810.11438.pdf)
-
 **Handshape/hand posture datasets (not all are for sign language)**
 
-| **id** | **Name**                                       | **Country** | **Classes**           | **Subjects** | **Samples**                    | **Data**                      | **Type**           | **Availability** |
-|--------|------------------------------------------------|-------------|-----------------------|--------------|--------------------------------|-------------------------------|--------------------|------------------|
-| 1      | ASL Fingerspelling A                           | USA         | 24                    | 5            | 131000                         | 2.1gb                         | images (depth+rgb) | Free download    |
-| 2      | ASL Fingerspelling B                           | USA         | 24                    | 9            |                                | 317mb                         | images (depth)     | Free download    |
-| 3      | LSA16 handshapes                               | Argentina   | 16                    | 10           | 800                            | 7mb                           | images (rgb)       | Free download    |
-| 4      | PSL Fingerspelling ToF                         | Poland      | 16                    | 3            | 960                            | \~290mb                       | 3D point cloud     | Free download    |
-| 5      | ISL                                            | Irish       | 23 static + 3 dynamic | 6            | 58114 frames / 468 videos      | 170mb                         | segmented images   | Free download    |
-| 6      | RWTH-PHOENIX-Weather Handshapes                | German      | 60                    |              | 3359 labelled + 17gb unlabeled | \+ 17gb                       | Hand Images (rgb)  | Free download    |
-| 7      | Japanese Fingerspelling Dataset                | Japan       | 41                    | 10           | 8055                           | segmented images (rgb), 32x32 | 4.5mb              | Free download    |
-| 8      | NUS hand posture dataset I                     | Singapore   | 10                    | ?            | 240                            | images (rgb), 160x120         | 3mb                | Free download    |
-| 9      | NUS hand posture dataset II                    | Singapore   | 10                    | 40           | 2000                           | images (rgb) 160x120          | 73mb               | Free download    |
-| 10     | CIARP                                          | \-          | 10                    | ?            | 6000                           | images (rgb) 38x38            | 11mb               | Free download    |
-| 11     | RTWH Fingerspelling dataset                    | Germany     |                       |              |                                |                               |                    |                  |
-| 12     | Indian Kinect                                  | India       | 140                   | 18           | 5041                           | images (rgb+depth) 640x480    | 2gb                | Free download    |
-| 13     | Arabic Alphabets Sign Language Dataset (ArASL) | Arabia      | 32                    | ?            | 54,049                         | images (rgb)                  | 64mb               | Free download    |
+|id|Name                           |Co |Clas|Sub|Samples| Data | Type              | Availability |
+|--|-------------------------------|---|----|---|-------|------|-------------------|--------------|
+| 1|ASL Fingerspelling A           |USA| 24 | 5 | 131000| 2.1gb|images (depth+rgb) | Free download|
+| 2|ASL Fingerspelling B           |USA| 24 | 9 |       | 317mb|images (depth)     | Free download|
+| 3|LSA16 handshapes               |Arg| 16 |10 | 800   |   7mb|images (rgb)       | Free download|
+| 4|PSL Fingerspelling ToF         |Pol| 16 | 3 | 960   |~290mb|3D point cloud     | Free download|
+| 5|ISL                            |Iri|[23]| 6 | [24]  | 170mb|segmented images   | Free download|
+| 6|RWTH-PHOENIX-Weather Handshapes|Ger| 60 |   | [25]  |+ 17gb|Hand Images (rgb)  | Free download|
+| 7|Japanese Fingerspelling Dataset|Jap| 41 |10 | 8055  | 4.5mb|[26]               | Free download|
+| 8|NUS hand posture dataset I     |Sin| 10 | ? | 240   |   3mb|images(rgb),160x120| Free download|
+| 9|NUS hand posture dataset II    |Sin| 10 |40 | 2000  |  73mb|images(rgb)160x120 | Free download|
+|10|CIARP                          |\- | 10 | ? | 6000  |  11mb|images(rgb)38x38   | Free download|
+|11|RTWH Fingerspelling dataset    |Ger|    |   |       |      |                   |              |
+|12|Indian Kinect                  |Ind| 40 |18 | 5041  |   2gb|[27]               | Free download|
+|13|[ArASL]                        |Ara| 32 | ? | 54,049|  64mb|images(rgb)        | Free download|
+|14|ChicagoFSWild                  |USA|[2] |160| ?     |      | images(rgb)       | Free download|     
+|15|ChicagoFSWild+                 |USA|    |   |       |      |                   |              |
+
+[ArASL] - Arabic Alphabets Sign Language Dataset;
+[2] - multiple types;
+[23]- 23 static + 3 dynamic;
+[24]- 58114 frames/468 videos; 
+[25]- 3359 labelled + 17gb unlabeled
+[26]- segmented images (rgb), 32x32
+[27]- images (rgb+depth) 640x480
 
 **Dataset information and related papers**
 
@@ -233,6 +240,12 @@ These datasets are used for machine-learning research
 
 15. [Arabic Alphabet and Numbers Sign Language Recognition](https://www.researchgate.net/publication/285755274_Arabic_Alphabet_and_Numbers_Sign_Language_Recognition)
 
+16. [ChicagoFSWild](https://ttic.uchicago.edu/~klivescu/ChicagoFSWild.htm#download)
+    1.  [American Sign Language fingerspelling recognition in the wild](https://arxiv.org/pdf/1810.11438.pdf)
+    2.  [Fingerspelling recognition in the wild with iterative visual attention](https://arxiv.org/pdf/1908.10546.pdf)
+17. [ChicagoFSWild+](https://ttic.uchicago.edu/~klivescu/ChicagoFSWild.htm#download)
+    1.  [Fingerspelling recognition in the wild with iterative visual attention](https://arxiv.org/pdf/1908.10546.pdf)
+    
 **Other info**
 
 Kevin Murphy mantains a similar list for [Action Recognition Datasets](http://www.cs.ubc.ca/~murphyk/videodata.html).
@@ -305,3 +318,5 @@ The table from the paper - [LipNet: End-to-End Sentence-level Lipreading](https:
 1.  [NYU Hand pose dataset](https://cims.nyu.edu/~tompson/NYU_Hand_Pose_Dataset.htm)
 
     1.  [Real-Time Continuous Pose Recovery of Human Hands Using Convolutional Networks](https://cims.nyu.edu/~tompson/others/TOG_2014_paper_PREPRINT.pdf)
+**References**
+https://facundoq.github.io/unlp/sign_language_datasets/index.html
