@@ -31,27 +31,27 @@ These datasets are used for machine-learning research
 |17| CUNY ASL             |USA|?    |8    |~33000[4] | ?    |S    |[12,16]  |[7]    |U     |
 |18| SignsWorld Atlas     |Ara|[2]  |10   | ?        | ?    |W,S,H|[17,8,14]|?      |U     |
 
-[1] - letters/numbers
-[2] - multiple types
-[3] - only 5 available
-[4] - glosses
-[5] - 1TB, contact author to obtain hard drive
-[6] - Request DVDs/HD 
-[7] - Signstream
-[8] - Videos
-[9] - multiple angles
-[10]- depth from Kinect camera
-[11]- ToF camera
-[12]- Videos(RGB)
-[13]- Video(depth)
-[14]- RGB
-[15]- 320x240
-[16]- mocap data
-[17]- Images
-[18]- Face, hand, end/start(unfinished)
-[19]- Hand
-[20]- end/start
-[21]- Hands and Head position
+[1] - letters/numbers;
+[2] - multiple types;
+[3] - only 5 available;
+[4] - glosses;
+[5] - 1TB, contact author to obtain hard drive;
+[6] - Request DVDs/HD;
+[7] - Signstream;
+[8] - Videos;
+[9] - multiple angles;
+[10]- depth from Kinect camera;
+[11]- ToF camera;
+[12]- Videos(RGB);
+[13]- Video(depth);
+[14]- RGB;
+[15]- 320x240;
+[16]- mocap data;
+[17]- Images;
+[18]- Face, hand, end/start(unfinished);
+[19]- Hand;
+[20]- end/start;
+[21]- Hands and Head position;
 
 **Dataset information and related papers**
 
