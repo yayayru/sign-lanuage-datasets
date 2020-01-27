@@ -1,26 +1,57 @@
 # Sign-lanuage-datasets
 These datasets are used for machine-learning research
 
-| **id** | **Name**             | **Country** | **Classes**          | **Subjects**          | **Samples**      | **Data** | **Language level**          | **Type**                         | **Annotations**                    | **Availability**                                             |
-|--------|----------------------|-------------|----------------------|-----------------------|------------------|----------|-----------------------------|----------------------------------|------------------------------------|--------------------------------------------------------------|
-| 1      | DGS Kinect 40        | Germany     | 40                   | 15                    | 3000             |          | Word                        | Videos, multiple angles          |                                    | Contact Author                                               |
-| 2      | RWTH-PHOENIX-Weather | Germany     | 1200                 | 9                     | 45760            | 52gb     | Sentence                    | Videos                           | Face, hand, end/start (unfinished) | Publicly Available                                           |
-| 3      | SIGNUM               | Germany     | 450                  | 25                    | 33210            | 920gb    | Sentence                    | Videos                           |                                    | Publicly Available, 1TB, contact author to obtain hard drive |
-| 4      | GSL 20               | Greek       | 20                   | 6                     | \~840            |          | Word                        |                                  |                                    | Contact Author                                               |
-| 5      | Boston ASL LVD       | USA         | 3300+                | 6                     | 9800             |          | Word                        | Videos, multiple angles          | hand,end/start                     | Publicly Available                                           |
-| 6      | PSL Kinect 30        | Poland      | 30                   | 1                     | 30×10=300        | \~1.2gb  | Word                        | Videos, depth from Kinect camera |                                    | Publicly Available                                           |
-| 7      | PSL ToF 84           | Poland      | 84                   | 1                     | 84×20=1680       | \~33gb   | Word                        | Videos, ToF camera               |                                    | Publicly Available                                           |
-| 8      | PSL 101              | Poland      | ?                    | ?                     | ?                | ?        | ?                           | ?                                |                                    | Contact Author                                               |
-| 9      | LSA64                | Argentina   | 64                   | 10                    | 3200             | 20gb     | Word                        | Videos(rgb)                      | Hands and Head position            | Publicly Available                                           |
-| 10     | BosphorusSign        | Turkey      |                      |                       |                  |          |                             |                                  |                                    | Non available                                                |
-| 11     | MSR Gesture 3D       | USA         | 12                   | 10                    | 336              | 28mb     | Word                        | Videos (depth)                   |                                    | Publicly Available                                           |
-| 12     | DEVISIGN-G           | China       | 36 (letters/numbers) | 8                     | 432              | ?        | Word                        | videos (rgb)                     |                                    | Contact author                                               |
-| 13     | DEVISIGN-D           | China       | 500                  | 8                     | 6000             | ?        | Word                        | videos (rgb)                     |                                    | Contact author                                               |
-| 14     | DEVISIGN-L           | China       | 2000                 | 8                     | 24000            | ?        | Word                        | videos (rgb)                     |                                    | Contact author                                               |
-| 15     | IIITA -ROBITA        | India       | 23                   | ?                     |                  | 284mb    | Word                        | videos (rgb) 320x240             |                                    | Contact author                                               |
-| 16     | Purdue ASL           | USA         | ?                    | 14 (only 5 available) | ?                | ?        | Word/sentence               | Videos, RGB                      |                                    | Request DVDs/HD                                              |
-| 17     | CUNY ASL             | USA         | ?                    | 8                     | \~33000 glosses, | ?        | Sentence                    | videos (rgb), mocap data         | Signstream                         | Unknown                                                      |
-| 18     | SignsWorld Atlas     | Arabia      | multiple types       | 10                    | ?                | ?        | Handshape, Words, Sentences | Images, Videos, RGB              | ?                                  | Unknown                                                      |
+- N : Dataset name
+- Co: Country
+- C : Classes
+- S : Subjects
+- Sa: Samples
+- LL: Language level(W-Word,S-Sentence,H-Handshape)
+- An: Annotations
+- Av: Availability(CA-Contact Author, PA-Publicly Available, Un-Unknown, Non-Non available)
+
+|id| Name                 |Co |C    |S    |Sa        |Data  | LL  |Type     |An     |Av    |
+|--|----------------------|---|-----|-----|----------|------|-----|---------|-------|------|
+|1 | DGS Kinect 40        |Ger|40   |15   |3000      |      |W    |[8,9]    |       |CA    |
+|2 | RWTH-PHOENIX-Weather |Ger|1200 |9    |45760     |52gb  |S    |[8]      |[18]   |PA    |
+|3 | SIGNUM               |Ger|450  |25   |33210     |920gb |S    |[8]      |       |PA,[5]|
+|4 | GSL 20               |Gre|20   |6    |~840      |      |W    |         |       |CA    |
+|5 | Boston ASL LVD       |USA|3300+|6    | 9800     |      |W    |[8,9]    |[19,20]|PA    |
+|6 | PSL Kinect 30        |Pol|30   |1    |30×10=300 |~1.2gb|W    |[8,10]   |       |PA    |
+|7 | PSL ToF 84           |Pol|84   |1    |84×20=1680|~33gb |W    |[8,11]   |       |PA    |
+|8 | PSL 101              |Pol|?    |?    | ?        |?     |?    |?        |       |CA    |
+|9 | LSA64                |Arg|64   |10   | 3200     |20gb  |W    |[12]     |[21]   |PA    |
+|10| BosphorusSign        |Tur|     |     |          |      |     |         |       |Non   |
+|11| MSR Gesture 3D       |USA|12   |10   | 336      |28mb  |W    |[13]     |       |PA    |
+|12| DEVISIGN-G           |Chi|36[1]|8    | 432      | ?    |W    |[12]     |       |CA    |
+|13| DEVISIGN-D           |Chi|500  |8    | 6000     | ?    |W    |[12]     |       |CA    |
+|14| DEVISIGN-L           |Chi|2000 |8    | 24000    | ?    |W    |[12]     |       |CA    |
+|15| IIITA -ROBITA        |Ind|23   |?    |          | 284mb|W    |[12,15]  |       |CA    |
+|16| Purdue ASL           |USA|?    |14[3]| ?        | ?    |W/S  |[8,14]   |       |[6]   |
+|17| CUNY ASL             |USA|?    |8    |~33000[4] | ?    |S    |[12,16]  |[7]    |U     |
+|18| SignsWorld Atlas     |Ara|[2]  |10   | ?        | ?    |W,S,H|[17,8,14]|?      |U     |
+
+[1] - letters/numbers
+[2] - multiple types
+[3] - only 5 available
+[4] - glosses
+[5] - 1TB, contact author to obtain hard drive
+[6] - Request DVDs/HD 
+[7] - Signstream
+[8] - Videos
+[9] - multiple angles
+[10]- depth from Kinect camera
+[11]- ToF camera
+[12]- Videos(RGB)
+[13]- Video(depth)
+[14]- RGB
+[15]- 320x240
+[16]- mocap data
+[17]- Images
+[18]- Face, hand, end/start(unfinished)
+[19]- Hand
+[20]- end/start
+[21]- Hands and Head position
 
 **Dataset information and related papers**
 
