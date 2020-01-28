@@ -133,7 +133,7 @@ These datasets are used for machine-learning research
 [26]- segmented images (rgb), 32x32
 [27]- images (rgb+depth) 640x480
 
-**Dataset information and related papers**
+*Dataset information and related papers*
 1.  [ASL Fingerspelling](http://empslocal.ex.ac.uk/people/staff/np331/index.php?section=FingerSpellingDataset)
     1.  [Spelling It Out: Real-Time ASL Fingerspelling Recognition](http://personal.ee.surrey.ac.uk/Personal/N.Pugeault/publications/PugeaultBowden2011b.pdf). 2011, Pugeault et al.
     2.  [Recognition of Hand Gestures Observed by Depth Cameras](http://cdn.intechopen.com/pdfs-wm/48352.pdf). 2015, Kapuscinski et al.
@@ -174,9 +174,11 @@ These datasets are used for machine-learning research
 1.  [NYU Hand pose dataset](https://cims.nyu.edu/~tompson/NYU_Hand_Pose_Dataset.htm)
     1.  [Real-Time Continuous Pose Recovery of Human Hands Using Convolutional Networks](https://cims.nyu.edu/~tompson/others/TOG_2014_paper_PREPRINT.pdf)
 
-**Datasets of facial features **
+**Datasets of facial features**
 1.  QLIBRAS
     1.  [QLIBRAS: A novel database for grammatical facial expressions in Brazilian Sign Language](https://pdfs.semanticscholar.org/919a/1e2bea81a7dc52dfa20fe530cf75a8f307da.pdf)
+2. [WIDER FACE: A Face Detection Benchmark](http://shuoyang1213.me/WIDERFACE/)
+    1.  [Fingerspelling recognition in the wild with iterative visual attention](https://arxiv.org/pdf/1908.10546.pdf)
 
 **Datasets of lip reading features**
 1.   [GRID corpus - Lip](http://spandh.dcs.shef.ac.uk/gridcorpus/)
