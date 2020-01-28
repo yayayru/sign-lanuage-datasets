@@ -15,9 +15,9 @@ These datasets are used for machine-learning research
 |1 | DGS Kinect 40        |Ger|40   |15   |3000      |      |W    |V,[9]    |       |PA    |Y|
 |2 | RWTH-PHOENIX-Weather |Ger|1200 |9    |45760     |52gb  |S    |V        |[18]   |PA    |Y|
 |3 | SIGNUM               |Ger|450  |25   |33210     |920gb |S    |V        |       |PA,[5]|N|
-|4 | GSL 20               |Gre|20   |6    |~840      |      |W    |         |       |CA    |N|
+|4 | GSL 20               |Gre|20   |6    |~840      |      |W    |         |       |CA    |Y|
 |5 | Boston ASL LVD       |USA|3300+|6    | 9800     |      |W    |V,[9]    |[19,20]|PA    |N|
-|6 | PSL Kinect 30        |Pol|30   |1    |30×10=300 |~1.2gb|W    |V,[10]   |       |PA    |N|
+|6 | PSL Kinect 30        |Pol|30   |1    |30×10=300 |~1.2gb|W    |V,[10]   |       |PA    |Y|
 |7 | PSL ToF 84           |Pol|84   |1    |84×20=1680|~33gb |W    |V,[11]   |       |PA    |N|
 |8 | PSL 101              |Pol|?    |?    | ?        |?     |?    |?        |       |CA    |N|
 |9 | LSA64                |Arg|64   |10   | 3200     |20gb  |W    |VR       |[21]   |PA    |Y|
@@ -153,7 +153,7 @@ These datasets are used for machine-learning research
 
 18. [SignsWorld Atlas; a benchmark Arabic Sign Language database](https://www.sciencedirect.com/science/article/pii/S1319157814000548)
 
-**Handshape/hand posture datasets (not all are for sign language)**
+**Datasets Handshape features (Handshape/hand posture datasets) but not all are for sign language**
 
 |id|Name                           |Co |Clas|Sub|Samples| Data | Type              | Availability |
 |--|-------------------------------|---|----|---|-------|------|-------------------|--------------|
@@ -245,7 +245,50 @@ These datasets are used for machine-learning research
     2.  [Fingerspelling recognition in the wild with iterative visual attention](https://arxiv.org/pdf/1908.10546.pdf)
 17. [ChicagoFSWild+](https://ttic.uchicago.edu/~klivescu/ChicagoFSWild.htm#download)
     1.  [Fingerspelling recognition in the wild with iterative visual attention](https://arxiv.org/pdf/1908.10546.pdf)
-    
+
+**Continuous hand pose**
+
+1.  [NYU Hand pose dataset](https://cims.nyu.edu/~tompson/NYU_Hand_Pose_Dataset.htm)
+
+    1.  [Real-Time Continuous Pose Recovery of Human Hands Using Convolutional Networks](https://cims.nyu.edu/~tompson/others/TOG_2014_paper_PREPRINT.pdf)
+
+
+**Datasets of facial features **
+
+1.  QLIBRAS
+
+    1.  [QLIBRAS: A novel database for grammatical facial expressions in Brazilian Sign Language](https://pdfs.semanticscholar.org/919a/1e2bea81a7dc52dfa20fe530cf75a8f307da.pdf)
+
+**Datasets of lip reading features**
+
+1.   [GRID corpus - Lip](http://spandh.dcs.shef.ac.uk/gridcorpus/)
+     1.   [LipNet: End-to-End Sentence-level Lipreading](https://arxiv.org/pdf/1611.01599.pdf)
+     2.   [Dynamic Stream Weighting for Turbo-Decoding-Based Audiovisual ASR](https://pdfs.semanticscholar.org/3087/e40e076b2a7bbb1e7a6efb7779a941283853.pdf)
+2.   [AVICAR - Lip](http://www.isle.illinois.edu/sst/AVICAR/)
+     1. [Classification and Feature Extraction by Simplexization](https://ieeexplore.ieee.org/document/4451093)
+3.   [AVLetter](http://www.ee.surrey.ac.uk/Projects/LILiR/datasets/avletters1/index.html)
+     1. [Temporal Multimodal Learning in Audiovisual Speech Recognition](https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Hu_Temporal_Multimodal_Learning_CVPR_2016_paper.pdf)
+4.   [CUAVE](http://people.csail.mit.edu/siracusa/avdata/)
+     1. [CUAVE: A new audio-visual database for multimodal human-computer interface research](https://www.researchgate.net/publication/228722705_CUAVE_A_new_audio-visual_database_for_multimodal_human-computer_interface_research)
+5.   OuluVS1 (no website)
+     1. [Lip Reading in the Wild](https://www.robots.ox.ac.uk/~vgg/publications/2016/Chung16/chung16.pdf)
+6.   [OuluVS2](http://www.ee.oulu.fi/research/imag/OuluVS2/)
+     1. [Out of time: automated lip sync in the wild](https://www.robots.ox.ac.uk/~vgg/publications/2016/Chung16a/chung16a.pdf)
+7.   [BBC TV](http://www.robots.ox.ac.uk/~vgg/data/lip_reading/lrw1.html)
+     1. [Lip Reading in the Wild](https://www.robots.ox.ac.uk/~vgg/publications/2016/Chung16/chung16.pdf)
+
+The table from the paper - [LipNet: End-to-End Sentence-level Lipreading](https://arxiv.org/pdf/1611.01599.pdf)
+
+| **Method** | **Dataset** | **Size** | **Output** | **Accuracy** |
+|----------------|-----------------|------------|--------------- |------------------ |
+| Fu et al. (2008)      | AVICAR | 851 | Digits | 37.9% |
+| Hu et al. (2016) | AVLetter | 78 | Alphabet | 64.6%|
+| Papandreou et al. (2009) | CUAVE | 1800 | Digits | 83.0%|
+| Chung & Zisserman (2016a) |OuluVS1 | 200 | Phrases | 91.4% |
+| Chung & Zisserman (2016b) | OuluVS2 | 520 | Phrases | 94.1% |
+| Chung & Zisserman (2016a) | BBC TV | > 400000 | Words | 65.4% |
+| Gergen et al. (2016) | GRID | 29700 | Words | 86.4% |
+| LipNet | GRID | 28775 | Sentences | 95.2% |
 **Other info**
 
 Kevin Murphy mantains a similar list for [Action Recognition Datasets](http://www.cs.ubc.ca/~murphyk/videodata.html).
@@ -276,47 +319,5 @@ Papers that cite datasets that are unavailable:
 
     1.  [Hand Movement Recognition for Brazilian Sign Language: A Study Using Distance-Based Neural Networks.](https://ieeexplore.ieee.org/document/5178917/)
 
-**Facial features**
-
-1.  QLIBRAS
-
-    1.  [QLIBRAS: A novel database for grammatical facial expressions in Brazilian Sign Language](https://pdfs.semanticscholar.org/919a/1e2bea81a7dc52dfa20fe530cf75a8f307da.pdf)
-
-**Lip reading features**
-
-1.   [GRID corpus - Lip](http://spandh.dcs.shef.ac.uk/gridcorpus/)
-     1.   [LipNet: End-to-End Sentence-level Lipreading](https://arxiv.org/pdf/1611.01599.pdf)
-     2.   [Dynamic Stream Weighting for Turbo-Decoding-Based Audiovisual ASR](https://pdfs.semanticscholar.org/3087/e40e076b2a7bbb1e7a6efb7779a941283853.pdf)
-2.   [AVICAR - Lip](http://www.isle.illinois.edu/sst/AVICAR/)
-     1. [Classification and Feature Extraction by Simplexization](https://ieeexplore.ieee.org/document/4451093)
-3.   [AVLetter](http://www.ee.surrey.ac.uk/Projects/LILiR/datasets/avletters1/index.html)
-     1. [Temporal Multimodal Learning in Audiovisual Speech Recognition](https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Hu_Temporal_Multimodal_Learning_CVPR_2016_paper.pdf)
-4.   [CUAVE](http://people.csail.mit.edu/siracusa/avdata/)
-     1. [CUAVE: A new audio-visual database for multimodal human-computer interface research](https://www.researchgate.net/publication/228722705_CUAVE_A_new_audio-visual_database_for_multimodal_human-computer_interface_research)
-5.   OuluVS1 (no website)
-     1. [Lip Reading in the Wild](https://www.robots.ox.ac.uk/~vgg/publications/2016/Chung16/chung16.pdf)
-6.   [OuluVS2](http://www.ee.oulu.fi/research/imag/OuluVS2/)
-     1. [Out of time: automated lip sync in the wild](https://www.robots.ox.ac.uk/~vgg/publications/2016/Chung16a/chung16a.pdf)
-7.   [BBC TV](http://www.robots.ox.ac.uk/~vgg/data/lip_reading/lrw1.html)
-     1. [Lip Reading in the Wild](https://www.robots.ox.ac.uk/~vgg/publications/2016/Chung16/chung16.pdf)
-
-The table from the paper - [LipNet: End-to-End Sentence-level Lipreading](https://arxiv.org/pdf/1611.01599.pdf)
-
-| **Method** | **Dataset** | **Size** | **Output** | **Accuracy** |
-|----------------|-----------------|------------|--------------- |------------------ |
-| Fu et al. (2008)      | AVICAR | 851 | Digits | 37.9% |
-| Hu et al. (2016) | AVLetter | 78 | Alphabet | 64.6%|
-| Papandreou et al. (2009) | CUAVE | 1800 | Digits | 83.0%|
-| Chung & Zisserman (2016a) |OuluVS1 | 200 | Phrases | 91.4% |
-| Chung & Zisserman (2016b) | OuluVS2 | 520 | Phrases | 94.1% |
-| Chung & Zisserman (2016a) | BBC TV | > 400000 | Words | 65.4% |
-| Gergen et al. (2016) | GRID | 29700 | Words | 86.4% |
-| LipNet | GRID | 28775 | Sentences | 95.2% |
-
-**Continuous hand pose**
-
-1.  [NYU Hand pose dataset](https://cims.nyu.edu/~tompson/NYU_Hand_Pose_Dataset.htm)
-
-    1.  [Real-Time Continuous Pose Recovery of Human Hands Using Convolutional Networks](https://cims.nyu.edu/~tompson/others/TOG_2014_paper_PREPRINT.pdf)
 **References**
 https://facundoq.github.io/unlp/sign_language_datasets/index.html
