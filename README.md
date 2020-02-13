@@ -67,7 +67,15 @@ These datasets are used for machine-learning research
     4.  [May the force be with you: Force-aligned signwriting for automatic subunit annotation of corpora](http://www-i6.informatik.rwth-aachen.de/publications/download/852/Koller-FG-2013.pdf) 2013, Koller et al.
     5.  [Deep Sign: Hybrid CNN-HMM for Continuous Sign Language Recognition](http://epubs.surrey.ac.uk/812319/)
 3.  [SIGNUM - German Sign Language](http://www.phonetik.uni-muenchen.de/forschung/Bas/SIGNUM/)
-    1.  [Continuous sign language recognition: Towards large vocabulary statistical recognition systems handling multiple signers](http://www.sciencedirect.com/science/article/pii/S1077314215002088) 2015, Koller et al.
+	
+    1.  [Rapid Signer Adaptation for Continuous Sign Language Recognition Using a Combined Approach of Eigenvoices, MLLR, and MAP](https://www.phonetik.uni-muenchen.de/forschung/Bas/SIGNUM/papers/paper-02.pdf) 2008, U. von Agris, C. Blömer, K.-F. Kraiss.
+    2.  [The Significance of Facial Features for Automatic Sign Language Recognition](https://www.phonetik.uni-muenchen.de/forschung/Bas/SIGNUM/papers/paper-03.pdf) 2008, U. von Agris, M. Knorr, K.-F. Kraiss.
+    3.  [Towards a Video Corpus for Signer-Independent Continuous Sign Language Recognition](https://www.phonetik.uni-muenchen.de/forschung/Bas/SIGNUM/papers/paper-04.pdf) 2007, U. von Agris, K.-F. Kraiss
+    4.  [Rapid Signer Adaptation for Isolated Sign Language Recognition](https://www.phonetik.uni-muenchen.de/forschung/Bas/SIGNUM/papers/paper-05.pdf)  2006, U. von Agris, D. Schneider, J. Zieren, K.-F. Kraiss.
+    5.  [Advanced Man-Machine Interaction. Fundamentals and Implementation](https://www.springer.com/gp/book/9783540306184) 	K.-F. Kraiss, ed.
+    6.  [Recent Developments in Visual Sign Language Recognition](https://www.phonetik.uni-muenchen.de/forschung/Bas/SIGNUM/papers/paper-01.pdf) 2008, 	U. von Agris, J. Zieren, U. Canzler, B. Bauer, K.-F. Kraiss.
+    7.  [Continuous sign language recognition: Towards large vocabulary statistical recognition systems handling multiple signers](http://www.sciencedirect.com/science/article/pii/S1077314215002088) 2015, Koller et al.
+    
 4.  Greek Sign Language (no website)
     1.  [Sign Language Recognition using Sub-Units](http://jmlr.csail.mit.edu/papers/volume13/cooper12a/cooper12a.pdf), 2012, Cooper et al.
     2.  [Sign Language Recognition using Sequential Pattern Trees](https://pdfs.semanticscholar.org/e8a1/84e76d6476ecc27857b1c1b280af5628d0ae.pdf) 2012, Ong et al.
