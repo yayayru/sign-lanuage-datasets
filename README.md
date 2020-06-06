@@ -1,6 +1,6 @@
 # Sign-lanuage-datasets
 These datasets are used for machine-learning research
-**Todo
+**Todo**
 - [WLASL: A large-scale dataset for Word-Level American Sign Language](https://github.com/dxli94/WLASL/blob/master/README.md)
 **Sign language datasets**
 - Co: Country
