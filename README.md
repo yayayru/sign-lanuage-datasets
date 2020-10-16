@@ -222,6 +222,7 @@ The table from the paper - [LipNet: End-to-End Sentence-level Lipreading](https:
 | LipNet | GRID | 28775 | Sentences | 95.2% |
 **Datasets of emotion reading features**
 - Предобученные модели распознавания эмоций EmoPy выложили в открытый доступ [`Neurohive`](https://neurohive.io/ru/novosti/emopy-emotion-recognition/?fbclid=IwAR3mE6sOLIM3Th4s6Cq5ww0mvAkuYCEKV07wTCbYkIuMbqeS9H1OGv-ElzA)
+- F2ED: датасет для распознавания эмоций на лице https://neurohive.io/ru/novosti/f2ed-dataset-dlya-raspoznavaniya-emocij-na-lice/?fbclid=IwAR3krXoMfAJySGuZAQsVkDwPoNIfex44EgLvDJCK5-24kX9hhVYzV_7WS4E
 
 
 **Other info**
