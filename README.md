@@ -220,6 +220,9 @@ The table from the paper - [LipNet: End-to-End Sentence-level Lipreading](https:
 | Chung & Zisserman (2016a) | BBC TV | > 400000 | Words | 65.4% |
 | Gergen et al. (2016) | GRID | 29700 | Words | 86.4% |
 | LipNet | GRID | 28775 | Sentences | 95.2% |
+**Datasets of emotion reading features**
+- Предобученные модели распознавания эмоций EmoPy выложили в открытый доступ [`Neurohive`](https://neurohive.io/ru/novosti/emopy-emotion-recognition/?fbclid=IwAR3mE6sOLIM3Th4s6Cq5ww0mvAkuYCEKV07wTCbYkIuMbqeS9H1OGv-ElzA)
+
 
 **Other info**
 Kevin Murphy mantains a similar list for [Action Recognition Datasets](http://www.cs.ubc.ca/~murphyk/videodata.html).
