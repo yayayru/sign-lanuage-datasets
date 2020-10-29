@@ -243,8 +243,8 @@ Papers that cite datasets that are unavailable:
     1.  [Hand Movement Recognition for Brazilian Sign Language: A Study Using Distance-Based Neural Networks.](https://ieeexplore.ieee.org/document/5178917/)
 
 **References**
-https://facundoq.github.io/unlp/sign_language_datasets/index.html
-
+- ~~https://facundoq.github.io/unlp/sign_language_datasets/index.html~~
+- https://facundoq.github.io/guides/sign_language_datasets/slr
 
 
 # TODO
